@@ -2,11 +2,6 @@
   functions = "functions"
 
 [[redirects]]
-  from = "/.netlify/functions/*"
-  to = "/.netlify/functions/:splat"
-  status = 200
-
-[[redirects]]
   from = "/*"
   to = "/.netlify/functions/webhook"
   status = 200
